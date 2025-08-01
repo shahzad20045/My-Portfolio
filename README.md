@@ -20,10 +20,10 @@
     header h1 { font-size: 2.5em; margin-bottom: 10px; }
     header p { font-size: 1.1em; }
 
-   .team-section { padding: 50px 20px; text-align: center; }
+.team-section { padding: 50px 20px; text-align: center; }
     .team-section h2 { font-size: 2em; margin-bottom: 30px; color: #007bff; }
 
-   .team-container {
+  .team-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
@@ -97,7 +97,7 @@
 <section class="team-section">
   <h2>👨‍💻 Our Experts</h2>
   <div class="team-container">
-<!-- Member -->
+ <!-- Member -->
     <div class="team-card">
       <img src="image/download (1).jpg " alt="John Doe">
       <div class="overlay">
@@ -127,7 +127,7 @@
         <p class="role">UI/UX Designer</p>
       </div>
     </div>
- <!-- Member -->
+<!-- Member -->
     <div class="team-card">
       <img src="image/download (3).jpg" alt="Mark Wilson">
       <div class="overlay">
@@ -142,7 +142,7 @@
         <p class="role">Project Manager</p>
       </div>
     </div>
- <!-- Member -->
+<!-- Member -->
     <div class="team-card">
       <img src="image/download (4).jpg" alt="Sara Lee">
       <div class="overlay">
