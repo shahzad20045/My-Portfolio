@@ -10,20 +10,20 @@
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0; padding: 0;
-      background: #f9f9f9; color: #333;
+      background: #33803394; color: #333;
     }
     header {
       text-align: center;
-      background: #007bff; color: white;
+      background: #ff0095a1; color: white;
       padding: 50px 20px;
     }
     header h1 { font-size: 2.5em; margin-bottom: 10px; }
     header p { font-size: 1.1em; }
 
-.team-section { padding: 50px 20px; text-align: center; }
+    .team-section { padding: 50px 20px; text-align: center; }
     .team-section h2 { font-size: 2em; margin-bottom: 30px; color: #007bff; }
 
-  .team-container {
+    .team-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
@@ -31,7 +31,7 @@
       margin: auto;
     }
 
-  /* Card Styling */
+    /* Card Styling */
     .team-card {
       background: white;
       border-radius: 10px;
@@ -50,13 +50,13 @@
       object-fit: cover;
     }
 
-  .info {
+    .info {
       padding: 20px;
     }
     .info h3 { color: #007bff; margin: 5px 0; }
     .info p.role { font-weight: bold; color: #555; margin: 5px 0 10px; }
 
-  /* Hover Overlay */
+    /* Hover Overlay */
     .overlay {
       position: absolute;
       top: 0; left: 0;
@@ -72,16 +72,16 @@
     }
     .team-card:hover .overlay { opacity: 1; }
 
-  .overlay p { max-width: 80%; text-align: center; margin-bottom: 10px; }
+    .overlay p { max-width: 80%; text-align: center; margin-bottom: 10px; }
     .socials a {
       margin: 0 5px;
       font-size: 20px;
       color: white;
       transition: color 0.3s;
     }
-    .socials a:hover { color: yellow; }
+    .socials a:hover { color: rgba(44, 121, 34, 0.466); }
 
-  @media(max-width: 600px){
+    @media(max-width: 600px){
       header h1 { font-size: 1.8em; }
       .team-section h2 { font-size: 1.5em; }
     }
@@ -97,7 +97,8 @@
 <section class="team-section">
   <h2>👨‍💻 Our Experts</h2>
   <div class="team-container">
- <!-- Member -->
+
+    <!-- Member -->
     <div class="team-card">
       <img src="image/download (1).jpg " alt="John Doe">
       <div class="overlay">
@@ -112,7 +113,8 @@
         <p class="role">Front-End Developer</p>
       </div>
     </div>
- <!-- Member -->
+
+    <!-- Member -->
     <div class="team-card">
       <img src="image/download (2).jpg" alt="Jane Smith">
       <div class="overlay">
@@ -127,7 +129,8 @@
         <p class="role">UI/UX Designer</p>
       </div>
     </div>
-<!-- Member -->
+
+    <!-- Member -->
     <div class="team-card">
       <img src="image/download (3).jpg" alt="Mark Wilson">
       <div class="overlay">
@@ -142,7 +145,8 @@
         <p class="role">Project Manager</p>
       </div>
     </div>
-<!-- Member -->
+
+    <!-- Member -->
     <div class="team-card">
       <img src="image/download (4).jpg" alt="Sara Lee">
       <div class="overlay">
